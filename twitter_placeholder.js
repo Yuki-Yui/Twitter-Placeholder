@@ -1,5 +1,5 @@
 window.addEventListener("load",function(){
-    setInterval(change,1000);
+    setInterval(change,500);
 })
 function change(){
     let message = "インターネットやめろ！！！";
