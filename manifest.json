@@ -1,0 +1,11 @@
+{
+	"name": "Twitterの入力画面のplaceholderを変更",
+	"manifest_version": 2,
+	"version": "1.0",
+	"content_scripts": [
+		{
+			"matches": ["https://twitter.com/*"],
+			"js": ["twitter_placeholder.js"]
+		}
+	]
+}
